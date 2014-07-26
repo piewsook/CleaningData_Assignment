@@ -126,3 +126,9 @@ mean_data <- data.frame()
 mean_data <- as.data.frame(mean_combined_set_MS)
 
 write.csv(mean_data, file="tidy_data.csv")
+
+#for codebook
+features_codebook <- features[mean_std_index,]
+#Removing the extra column
+features_codebook$V1 <- NULL
+write.csv(mean_data, file="activity_list.csv")
