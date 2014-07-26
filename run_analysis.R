@@ -131,4 +131,4 @@ write.csv(mean_data, file="tidy_data.csv")
 features_codebook <- features[mean_std_index,]
 #Removing the extra column
 features_codebook$V1 <- NULL
-write.csv(mean_data, file="activity_list.csv")
+write.csv(features_codebook, file="activity_list.csv")

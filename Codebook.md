@@ -3,7 +3,7 @@
 
 Variables for tidy_data:
 Column Legend: 
-1. Variable Index on original feature list
+1. Serial Number
 2. Feature Description
 
 "1","tBodyAcc-mean()-X"
@@ -18,82 +18,149 @@ Column Legend:
 
 "6","tBodyAcc-std()-Z"
 
-"41","tGravityAcc-mean()-X"
+"7","tGravityAcc-mean()-X"
 
-"42","tGravityAcc-mean()-Y"
+"8","tGravityAcc-mean()-Y"
 
-"43","tGravityAcc-mean()-Z"
+"9","tGravityAcc-mean()-Z"
 
-"44","tGravityAcc-std()-X"
+"10","tGravityAcc-std()-X"
 
-"45","tGravityAcc-std()-Y"
+"11","tGravityAcc-std()-Y"
 
-"46","tGravityAcc-std()-Z"
+"12","tGravityAcc-std()-Z"
 
-"81","tBodyAccJerk-mean()-X"
+"13","tBodyAccJerk-mean()-X"
 
-"82","tBodyAccJerk-mean()-Y"
+"14","tBodyAccJerk-mean()-Y"
 
-"83","tBodyAccJerk-mean()-Z"
+"15","tBodyAccJerk-mean()-Z"
 
-"84","tBodyAccJerk-std()-X"
+"16","tBodyAccJerk-std()-X"
 
-"85","tBodyAccJerk-std()-Y"
+"17","tBodyAccJerk-std()-Y"
 
-"86","tBodyAccJerk-std()-Z"
+"18","tBodyAccJerk-std()-Z"
 
-"121","tBodyGyro-mean()-X"
+"19","tBodyGyro-mean()-X"
 
-"122","tBodyGyro-mean()-Y"
+"20","tBodyGyro-mean()-Y"
 
-"123","tBodyGyro-mean()-Z"
+"21","tBodyGyro-mean()-Z"
 
-"124","tBodyGyro-std()-X"
+"22","tBodyGyro-std()-X"
 
-"125","tBodyGyro-std()-Y"
+"23","tBodyGyro-std()-Y"
 
-"126","tBodyGyro-std()-Z"
+"24","tBodyGyro-std()-Z"
 
-"161","tBodyGyroJerk-mean()-X"
+"25","tBodyGyroJerk-mean()-X"
 
-"162","tBodyGyroJerk-mean()-Y"
+"26","tBodyGyroJerk-mean()-Y"
 
-"163","tBodyGyroJerk-mean()-Z"
+"27","tBodyGyroJerk-mean()-Z"
 
-"164","tBodyGyroJerk-std()-X"
+"28","tBodyGyroJerk-std()-X"
 
-"165","tBodyGyroJerk-std()-Y"
+"29","tBodyGyroJerk-std()-Y"
 
-"166","tBodyGyroJerk-std()-Z"
+"30","tBodyGyroJerk-std()-Z"
 
-"201","tBodyAccMag-mean()"
+"31","tBodyAccMag-mean()"
 
-"202","tBodyAccMag-std()"
+"32","tBodyAccMag-std()"
 
-"214","tGravityAccMag-mean()"
+"33","tGravityAccMag-mean()"
 
-"215","tGravityAccMag-std()"
+"34","tGravityAccMag-std()"
 
-"227","tBodyAccJerkMag-mean()"
+"35","tBodyAccJerkMag-mean()"
 
-"228","tBodyAccJerkMag-std()"
+"36","tBodyAccJerkMag-std()"
 
-"240","tBodyGyroMag-mean()"
+"37","tBodyGyroMag-mean()"
 
-"241","tBodyGyroMag-std()"
+"38","tBodyGyroMag-std()"
 
-"253","tBodyGyroJerkMag-mean()"
+"39","tBodyGyroJerkMag-mean()"
 
-"254","tBodyGyroJerkMag-std()"
+"40","tBodyGyroJerkMag-std()"
 
-"266","fBodyAcc-mean()-X"
+"41","fBodyAcc-mean()-X"
 
-"267","fBodyAcc-mean()-Y"
+"42","fBodyAcc-mean()-Y"
 
-"268","fBodyAcc-mean()-Z"
+"43","fBodyAcc-mean()-Z"
 
-"269","fBodyAcc-std()-X"
+"44","fBodyAcc-std()-X"
 
-"270","fBodyAcc-std()-Y"
+"45","fBodyAcc-std()-Y"
 
-"271","fBodyAcc-std()-Z"
+"46","fBodyAcc-std()-Z"
+
+"47","fBodyAcc-meanFreq()-X"
+
+"48","fBodyAcc-meanFreq()-Y"
+
+"49","fBodyAcc-meanFreq()-Z"
+
+"50","fBodyAccJerk-mean()-X"
+
+"51","fBodyAccJerk-mean()-Y"
+
+"52","fBodyAccJerk-mean()-Z"
+
+"53","fBodyAccJerk-std()-X"
+
+"54","fBodyAccJerk-std()-Y"
+
+"55","fBodyAccJerk-std()-Z"
+
+"56","fBodyAccJerk-meanFreq()-X"
+
+"57","fBodyAccJerk-meanFreq()-Y"
+
+"58","fBodyAccJerk-meanFreq()-Z"
+
+"59","fBodyGyro-mean()-X"
+
+"60","fBodyGyro-mean()-Y"
+
+"61","fBodyGyro-mean()-Z"
+
+"62","fBodyGyro-std()-X"
+
+"63","fBodyGyro-std()-Y"
+
+"64","fBodyGyro-std()-Z"
+
+"65","fBodyGyro-meanFreq()-X"
+
+"66","fBodyGyro-meanFreq()-Y"
+
+"67","fBodyGyro-meanFreq()-Z"
+
+"68","fBodyAccMag-mean()"
+
+"69","fBodyAccMag-std()"
+
+"70","fBodyAccMag-meanFreq()"
+
+"71","fBodyBodyAccJerkMag-mean()"
+
+"72","fBodyBodyAccJerkMag-std()"
+
+"73","fBodyBodyAccJerkMag-meanFreq()"
+
+"74","fBodyBodyGyroMag-mean()"
+
+"75","fBodyBodyGyroMag-std()"
+
+"76","fBodyBodyGyroMag-meanFreq()"
+
+"78","fBodyBodyGyroJerkMag-mean()"
+
+"79","fBodyBodyGyroJerkMag-std()"
+
+"80","fBodyBodyGyroJerkMag-meanFreq()"
+
